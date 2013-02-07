@@ -6,6 +6,6 @@ SuperWall::Application.routes.draw do
 
   match "/add_message" => "wall#add_message"
 
-  match "/messages" => "wall#wall_messages"
+  match "/wall_messages" => "wall#wall_messages"
 
 end
