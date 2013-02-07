@@ -1,0 +1,3 @@
+class Wall < ActiveRecord::Base
+  attr_accessible :topic
+end
